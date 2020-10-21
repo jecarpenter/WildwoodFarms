@@ -1,0 +1,59 @@
+
+/*
+Header
+*/
+#mainTitle {
+    font-family: 'Quicksand', sans-serif;
+    color: #144554;
+    font-size: 68px;
+}
+#mainTitle:hover {
+    cursor: pointer
+}
+/*
+Navigation
+*/
+#mainNav {
+    font-family: 'Quicksand', sans-serif;
+    color: #144554;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+}
+#mainNav:hover {
+    cursor: pointer
+    
+}
+/*
+Body
+*/
+#homeContactinfo {
+    font-family: 'roboto', sans-serif;
+    font-size: 41px;
+    color: #144554;
+    opacity: 0.85;
+}
+#homeContactEmail {
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+    color: #144554;
+}
+#homeContactEmail:hover {
+    cursor: pointer
+}
+
+
+#contentContainer {
+    margin-top: 50px;
+}
+#homedogImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/*
+    Animation CSS
+*/
