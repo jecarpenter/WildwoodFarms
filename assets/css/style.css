@@ -1,4 +1,3 @@
-
 /*
 Header
 */
@@ -10,25 +9,14 @@ Header
 #mainTitle:hover {
     cursor: pointer
 }
+#imagePaws{
+    width: 100%;
+}
 /*
 Navigation
 */
-#mainNav {
-    font-family: 'Quicksand', sans-serif;
-    color: #144554;
-    font-size: 12px;
-    display: inline-block;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    text-align: center;
-}
-#mainNav:hover {
-    cursor: pointer
-    
-}
-/*
-Body
-*/
+
+
 #homeContactinfo {
     font-family: 'roboto', sans-serif;
     font-size: 41px;
@@ -37,8 +25,9 @@ Body
 }
 #homeContactEmail {
     font-family: 'roboto', sans-serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #144554;
+    opacity: 0.5;
 }
 #homeContactEmail:hover {
     cursor: pointer
@@ -48,12 +37,45 @@ Body
 #contentContainer {
     margin-top: 50px;
 }
-#homedogImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#homedogImage2 {
+    display: table;
+    margin: auto;
     width: 50%;
+    background-image: url("../images/homedog.jpeg");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
-/*
-    Animation CSS
-*/
+
+*sticky-image-wrapper {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    #homedogImage2 {
+        width: 100%;
+    }
+}
+
+
+/*link animations */
+/*-----------------------*/
+#mainNav:hover {
+   transition: all 0.15s ease-out;
+}
+
+#mainNav {
+    font-family: 'Quicksand', sans-serif;
+    color: #144554;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    position: relative;
+    text-decoration: none;
+}
+/*-----------------------*/
